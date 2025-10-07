@@ -11,6 +11,9 @@
     <!-- Feather Icons CDN -->
     <script src="https://unpkg.com/feather-icons"></script>
 
+    <!-- Google Font untuk nama -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
     <style>
         /* ====== GLOBAL STYLE ====== */
         body {
@@ -70,11 +73,13 @@
 
         /* ====== NAMA ====== */
         .profile-name {
-            font-weight: 600;
-            font-size: 1.7rem;
+            font-family: "Playfair Display", serif;
+            font-weight: 700;
+            font-size: 2rem;
             margin-bottom: 1rem;
-            letter-spacing: 0.5px;
-            color: #fff;
+            letter-spacing: 1px;
+            color: #ffd700;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.6);
             animation: fadeInUp 1.7s ease;
         }
 
@@ -146,7 +151,7 @@
             }
 
             .profile-name {
-                font-size: 1.3rem;
+                font-size: 1.5rem;
             }
         }
     </style>
